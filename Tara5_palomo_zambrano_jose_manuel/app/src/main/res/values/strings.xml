@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tara5_palomo_zambrano_jose_manuel</string>
+
+    <string name="button_greet">Saludar</string>
+    <string name="button_count">Contar letras</string>
+    <string name="hint_name">Escribe tu nombre</string>
+    <string name="label_result">Resultado</string>
+</resources>

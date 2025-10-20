@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tara5_palomo_zambrano_jose_manuel</string>
+
+
+    <string name="button_greet">Greet</string>
+    <string name="button_count">Count letters</string>
+    <string name="hint_name">Enter your name</string>
+    <string name="label_result">Result</string>
+
+
+
+</resources>

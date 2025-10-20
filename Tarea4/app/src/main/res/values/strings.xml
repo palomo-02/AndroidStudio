@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tarea4</string>
+    <string name="greeting">Hola</string>
+    <string name="count_letters">El nombre tiene</string>
+    <string name="letters">letras</string>
+    <string name="button_greet">Saludar</string>
+    <string name="button_count">Contar letras</string>
+    <string name="hint_name">Escribe tu nombre</string>
+</resources>
