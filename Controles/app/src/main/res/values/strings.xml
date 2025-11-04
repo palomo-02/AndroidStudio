@@ -1,0 +1,28 @@
+
+<resources>
+
+    <string name="app_name">Controles</string>
+
+    <string name="btn_txt_TextView">TextView</string>
+    <string name="btn_txt_Button">Button</string>
+    <string name="btn_txt_ToggleButton">ToggleButton</string>
+    <string name="btn_txt_ImageButton">ImageButton</string>
+    <string name="btn_txt_EditText">EditText</string>
+    <string name="btn_txt_Spinner">Spinner</string>
+    <string name="btn_txt_CheckBox">CheckBox</string>
+    <string name="btn_txt_RadioButton">RadioButton</string>
+    <string name="btn_txt_Switch">Switch</string>
+    <string name="btn_txt_SeekBar">SeekBar</string>
+    <string name="btn_txt_RatingBar">RatingBar</string>
+    <string name="btn_txt_ProgressBar">ProgressBar</string>
+    <string name="ejemplo_TextView">Hola, que tal</string>
+    <string name="ejemplo_textoanimado">Buenas tardes</string>
+    <string name="ejemplo_textoBotón1">Botón 1</string>
+    <string name="ejemplo_textoToggleBotón_On">Activado</string>
+    <string name="ejemplo_textoToggleBotón_Off">No Activado</string>
+    <string name="ejemplo_texto_elección">Elige una opción</string>
+    <string name="cookies">Aceptar todas las cookies</string>
+    <string name="satisfacción">Grado de satisfacción</string>
+    <string name="progreso">Barra de progreso</string>
+
+</resources>

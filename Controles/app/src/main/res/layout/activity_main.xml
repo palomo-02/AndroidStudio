@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irATextView"
+                    android:text="@string/btn_txt_TextView"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irAButton"
+                    android:text="@string/btn_txt_Button"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/ToggleButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irAToggleButton"
+                    android:text="@string/btn_txt_ToggleButton"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/ImageButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irAImageButton"
+                    android:text="@string/btn_txt_ImageButton"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/EditText"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irAEditText"
+                    android:text="@string/btn_txt_EditText"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/Spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irASpinner"
+                    android:text="@string/btn_txt_Spinner"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/CheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irACheckBox"
+                    android:text="@string/btn_txt_CheckBox"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/RadioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irARadioButton"
+                    android:text="@string/btn_txt_RadioButton"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/Switch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irASwitch"
+                    android:text="@string/btn_txt_Switch"
+                    android:textSize="12sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/SeekBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irASeekBar"
+                    android:text="@string/btn_txt_SeekBar"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/RatingBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irARatingBar"
+                    android:text="@string/btn_txt_RatingBar"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/ProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="irAProgressBar"
+                    android:text="@string/btn_txt_ProgressBar"
+                    android:textSize="12sp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

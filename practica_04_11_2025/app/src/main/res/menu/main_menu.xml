@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/Madrid"  android:title="madrid">
+
+
+        <menu>
+            <item android:id="@+id/opcionM_1" android:title="Casas" />
+            <item android:id="@+id/opcionM_2" android:title="Pisos" />
+            <item android:id="@+id/opcionM_3" android:title="Locales" />
+        </menu>
+
+    </item>
+
+
+    <item android:id="@+id/Barcelona"  android:title="Barcelona">
+        <menu>
+
+        <item android:id="@+id/opcionB_1" android:title="Casas" />
+        <item android:id="@+id/opcionB_2" android:title="Pisos" />
+        <item android:id="@+id/opcionB_3" android:title="Locales" />
+        </menu>
+
+    </item>
+
+</menu>

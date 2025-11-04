@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="411dp"
+        android:layout_height="733dp"
+        android:layout_gravity="center"
+
+        android:backgroundTint="#BA0F0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:useDefaultMargins="true">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="131dp"
+                android:layout_height="match_parent"
+                app:backgroundTint="#FD0202" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="155dp"
+                android:layout_height="match_parent"
+                app:backgroundTint="#0A9600" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                app:backgroundTint="#0247F3" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_span="3"
+                android:rotationX="360"
+                app:backgroundTint="#0A9600" />
+
+
+        </TableRow>
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
