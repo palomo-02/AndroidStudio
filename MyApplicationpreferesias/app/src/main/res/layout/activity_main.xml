@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnPreferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Ir a Preferencias" />
+
+    <Button
+        android:id="@+id/btnObtenerPreferencias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. Leer Preferencias" />
+
+    <Button
+        android:id="@+id/btnDialogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. Diálogo Simple" />
+
+    <Button
+        android:id="@+id/btnDialogoLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. Diálogo Lista" />
+
+    <Button
+        android:id="@+id/btnSeleccionUnica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. Selección Única (Radio)" />
+
+    <Button
+        android:id="@+id/btnSeleccionMultiple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6. Selección Múltiple (Check)" />
+
+    <Button
+        android:id="@+id/btnNotificacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7. Lanzar Notificación" />
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Applicationpreferesias</string>
+
+
+
+
+
+    <string-array name="opciones_lista">
+        <item>WINDOWS</item>
+        <item>LINUX</item>
+    </string-array>
+
+    <string-array name="valores_lista">
+        <item>sis1</item>
+        <item>sis2</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">preferencias_palomo_zambrano_jose_manuel</string>
+
+
+
+
+
+
+
+    <string-array name="opciones_lista">
+        <item>Mayor</item>
+        <item>Menor</item>
+    </string-array>
+
+    <string-array name="valores_lista">
+        <item>mayor</item>
+        <item>menor</item>
+    </string-array>
+
+
+
+
+
+</resources>

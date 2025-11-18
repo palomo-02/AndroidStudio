@@ -2,9 +2,12 @@ package com.example.aplicacionrepaso_palomo_zambrano_jose_manuel;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -34,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             String path = "android.resource://" + getPackageName() + "/" + R.raw.pollitoandador;
             videoView.setVideoURI(Uri.parse(path));
 
-            // Cuando el video termine, volver al inicio
             videoView.setOnCompletionListener(mp -> {
                 videoView.seekTo(0);
                 andando = false;
@@ -55,24 +57,45 @@ public class MainActivity extends AppCompatActivity {
         });
 
         botonAndar.setOnClickListener(v -> {
-            if (!andando) {
-                // Iniciar video
-                videoView.start();
-                andando = true;
-                botonAndar.setText("Parar pollo");
-                cont++;
-            } else {
-                // Parar video
-                videoView.pause();
-                videoView.seekTo(0); // Volver al inicio
-                andando = false;
-                botonAndar.setText("Hacer que el pollo ande");
-            }
+
+            videoView.start();
+            andando = true;
+            cont++;
+
         });
 
         pasosTotal.setOnClickListener(v -> {
-            Toast.makeText(MainActivity.this, "El pollo ha dado: " + cont+7 + " pasos en total", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "cuantos paseo ha dado el pollo?: " + cont + " pasos en total", Toast.LENGTH_SHORT).show();
         });
+    }
+
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+
+        switch (item.getItemId()) {
+            case R.id.Puzzle:
+
+                Intent intent1 = new Intent(this, vistaPuzzle.class);
+                startActivity(intent1);
+
+                break;
+
+            default:
+
+
+                return super.onOptionsItemSelected(item);
+        }
+
+
+
+        return true;
     }
 
     @Override

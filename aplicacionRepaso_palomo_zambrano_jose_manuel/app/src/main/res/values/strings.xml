@@ -1,3 +1,15 @@
 <resources>
+
+
     <string name="app_name">aplicacionRepaso_palomo_zambrano_jose_manuel</string>
+    <string name="hola_soy_un_pollo_sin_nombre">Hola, soy un pollo sin nombre</string>
+    <string name="cambiar_de_nombre">Cambiar de nombre</string>
+    <string name="inserte_el_nombre_de_su_pollo">Inserte el nombre de su pollo</string>
+    <string name="hacer_que_el_pollo_ande">Hacer que el pollo ande</string>
+    <string name="cuantos_paseos_ha_dado_el_pollo">¿cuantos paseos ha dado el pollo?</string>
+    <string name="oleeee_pepe_flamenquito">¡Oleeee Pepe flamenquito!</string>
+    <string name="han_decapitado_a_pepe_ay_dale">Han decapitado a Pepe, ¡ayúdale!</string>
+    <string name="ir_a_puzzle">ir a puzzle</string>
+
+
 </resources>

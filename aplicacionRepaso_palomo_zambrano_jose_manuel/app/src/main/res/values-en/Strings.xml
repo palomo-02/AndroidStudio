@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">repaso_app_palomo_zambrano_jose_manuel</string>
+    <string name="hola_soy_un_pollo_sin_nombre">Hello, I’m a nameless chicken</string>
+    <string name="cambiar_de_nombre">Change name</string>
+    <string name="inserte_el_nombre_de_su_pollo">Enter your chicken’s name</string>
+    <string name="hacer_que_el_pollo_ande">Make the chicken walk</string>
+    <string name="cuantos_paseos_ha_dado_el_pollo">How many walks has the chicken taken?</string>
+    <string name="oleeee_pepe_flamenquito">Olé! Pepe the little flamenco!</string>
+    <string name="han_decapitado_a_pepe_ay_dale">Pepe has been decapitated, help him!</string>
+    <string name="ir_a_puzzle">go to puzzle</string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CATEGORÍA 1">
+        <CheckBoxPreference
+            android:key="notificaciones_activas"
+            android:title="Recibir notificaciones"
+            android:summary="Activa notif. push"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="CATEGORÍA 2">
+        <EditTextPreference
+            android:key="nombre_usuario"
+            android:title="Nombre de Usuario"
+            android:dialogTitle="Introduce tu nombre"
+            android:defaultValue="Invitado" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="CATEGORÍA 3">
+        <ListPreference
+            android:key="pref_ejemplo_lista"
+            android:title="Seleccionar opción"
+            android:dialogTitle="Opciones disponibles"
+            android:entries="@array/opciones_lista"
+            android:entryValues="@array/valores_lista"
+            android:defaultValue="valor_por_defecto"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

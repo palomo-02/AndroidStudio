@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="CATEGORÍA 1">
+
+        <ListPreference
+            android:key="pref_ejemplo_lista"
+            android:title="Seleccionar opción"
+            android:dialogTitle="Selecciona tu edad"
+            android:entries="@array/opciones_lista"
+            android:entryValues="@array/valores_lista"
+            android:defaultValue="valor_por_defecto"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
