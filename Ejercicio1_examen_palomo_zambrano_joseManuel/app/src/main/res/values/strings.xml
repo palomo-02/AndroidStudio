@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ejercicio1_examen_palomo_zambrano_joseManuel</string>
+    <string name="ir_al_reproductor">Ir al reproductor</string>
+    <string name="introduzca_un_comentario">Introduzca un comentario</string>
+    <string name="introduzca_el_descuento">Introduzca el descuento</string>
+    <string name="introduzca_el_precio_base">Introduzca el precio base</string>
+    <string name="calcular_precio_final">calcular Precio Final</string>
+    <string name="excribir_comentario">Excribir Comentario</string>
+
+
+    <string name="haz_que_pie">haz que pie</string>
+    <string name="que_pare_de_piar">Que pare de piar</string>
+    <string name="volver">Volver</string>
+    <string name="pararvideo">pararVideo</string>
+</resources>

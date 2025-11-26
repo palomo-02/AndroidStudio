@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <string name="app_name">Ejercicio1_examen_palomo_zambrano_joseManuel</string>
+    <string name="ir_al_reproductor">go to the product</string>
+    <string name="introduzca_un_comentario">write a comment</string>
+    <string name="introduzca_el_descuento">introduce the discount</string>
+    <string name="introduzca_el_precio_base">introduce the base price</string>
+    <string name="calcular_precio_final">see final price</string>
+    <string name="excribir_comentario">save comment</string>
+
+
+
+    <string name="haz_que_pie">listen to the little chicken </string>
+    <string name="que_pare_de_piar">make it stop</string>
+    <string name="volver">return</string>
+
+    <string name="pararvideo">stop video</string>
+
+
+
+</resources>
